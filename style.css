@@ -1,0 +1,1163 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(135deg,#020617,#001845,#003566);
+
+    color:#fff;
+
+    overflow-x:hidden;
+
+}
+
+/* ==========================
+   BACKGROUND
+========================== */
+
+.stars{
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    top:0;
+    left:0;
+
+    z-index:-1;
+
+    background-image:
+    radial-gradient(white 1px, transparent 1px);
+
+    background-size:40px 40px;
+
+    opacity:.25;
+
+}
+
+/* ==========================
+   CONTAINER
+========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.welcome{
+
+    color:#7dd3fc;
+
+    letter-spacing:2px;
+
+}
+
+.name{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:70px;
+
+    margin:20px 0;
+
+    color:#38bdf8;
+
+}
+
+.from{
+
+    font-size:20px;
+
+    color:#cbd5e1;
+
+}
+
+button{
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#0ea5e9;
+
+    color:#fff;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#0284c7;
+
+    transform:scale(1.05);
+
+}
+/* ==========================
+   BIRTHDAY CARD
+========================== */
+
+#birthday{
+
+    margin-top:80px;
+
+}
+
+.birthday-card{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 0 25px rgba(0,170,255,.25);
+
+}
+
+.title{
+
+    color:#7dd3fc;
+
+    font-size:30px;
+
+}
+
+.birthday-name{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:60px;
+
+    color:#38bdf8;
+
+    margin:20px 0;
+
+}
+
+.birthday-message{
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+    color:#e2e8f0;
+
+}
+
+/* ==========================
+   GALLERY
+========================== */
+
+#gallery{
+
+    margin-top:100px;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:35px;
+
+    color:#7dd3fc;
+
+    margin-bottom:40px;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    border:3px solid #38bdf8;
+
+    transition:.4s;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 20px #38bdf8;
+
+}
+/* ==========================
+   LETTER SECTION
+========================== */
+
+#letter{
+
+    margin-top:100px;
+
+}
+
+.letter-box{
+
+    max-width:850px;
+
+    margin:auto;
+
+    background:rgba(255,255,255,.07);
+
+    border:1px solid rgba(56,189,248,.3);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    line-height:2;
+
+    color:#f1f5f9;
+
+    box-shadow:0 0 25px rgba(56,189,248,.20);
+
+}
+
+.letter-box strong{
+
+    color:#38bdf8;
+
+}
+
+/* ==========================
+   TIMELINE
+========================== */
+
+#timeline{
+
+    margin-top:100px;
+
+}
+
+.timeline-item{
+
+    margin:25px auto;
+
+    max-width:700px;
+
+    background:rgba(255,255,255,.06);
+
+    border-left:5px solid #38bdf8;
+
+    padding:20px 25px;
+
+    border-radius:12px;
+
+}
+
+.timeline-item h3{
+
+    color:#7dd3fc;
+
+    margin-bottom:10px;
+
+}
+
+.timeline-item p{
+
+    color:#e2e8f0;
+
+}
+
+/* ==========================
+   MUSIC SECTION
+========================== */
+
+#music{
+
+    margin-top:100px;
+
+    text-align:center;
+
+}
+
+#musicBtn{
+
+    margin-top:20px;
+
+}
+
+/* ==========================
+   FINAL MESSAGE
+========================== */
+
+#final{
+
+    margin-top:100px;
+
+    text-align:center;
+
+}
+
+.final-message{
+
+    max-width:750px;
+
+    margin:20px auto;
+
+    line-height:2;
+
+    color:#e2e8f0;
+
+}
+
+.signature{
+
+    margin-top:30px;
+
+    color:#38bdf8;
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:40px;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#94a3b8;
+
+}
+/* ==========================
+   ANIMATIONS
+========================== */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.hero,
+.birthday-card,
+.letter-box,
+.timeline-item,
+#music,
+#final{
+
+    animation:fadeUp 1.2s ease;
+
+}
+
+/* Floating Name */
+
+@keyframes floating{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+.name{
+
+    animation:floating 3s ease-in-out infinite;
+
+}
+
+/* Button Glow */
+
+button{
+
+    box-shadow:0 0 20px rgba(56,189,248,.4);
+
+}
+
+button:hover{
+
+    box-shadow:0 0 35px rgba(56,189,248,.8);
+
+}
+
+/* Hidden Section */
+
+.hidden{
+
+    display:none;
+
+}
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+    .name{
+
+        font-size:48px;
+
+    }
+
+    .birthday-name{
+
+        font-size:42px;
+
+    }
+
+    .container{
+
+        width:95%;
+
+    }
+
+    .letter-box{
+
+        padding:25px;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    button{
+
+        width:100%;
+
+    }
+
+}
+/* ==========================
+   PART 11 - PREMIUM EFFECTS
+========================== */
+
+/* Glass Hover */
+
+.birthday-card,
+.letter-box,
+.timeline-item{
+
+    transition:0.4s;
+
+}
+
+.birthday-card:hover,
+.letter-box:hover,
+.timeline-item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 35px rgba(56,189,248,.5);
+
+}
+
+/* Image Hover */
+
+.gallery-grid img{
+
+    cursor:pointer;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.08) rotate(1deg);
+
+}
+
+/* Signature Glow */
+
+.signature{
+
+    text-shadow:
+    0 0 10px #38bdf8,
+    0 0 20px #38bdf8,
+    0 0 40px #0ea5e9;
+
+}
+
+/* Footer */
+
+footer{
+
+    border-top:1px solid rgba(255,255,255,.1);
+
+}
+
+/* Smooth Fade */
+
+section{
+
+    animation:fadeUp 1s ease;
+
+}
+/* ==========================
+   PART 12 - FLOATING HEARTS
+========================== */
+
+.hearts{
+
+    position:fixed;
+
+    inset:0;
+
+    overflow:hidden;
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}
+
+.heart{
+
+    position:absolute;
+
+    bottom:-40px;
+
+    color:#38bdf8;
+
+    font-size:20px;
+
+    animation:floatHeart 8s linear infinite;
+
+    opacity:.7;
+
+}
+
+@keyframes floatHeart{
+
+    0%{
+
+        transform:translateY(0) scale(1);
+
+        opacity:0;
+
+    }
+
+    20%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateY(-120vh) scale(1.6);
+
+        opacity:0;
+
+    }
+
+}
+/* ==========================
+   PART 13 - GIFT & FIREWORKS
+========================== */
+
+.gift-box{
+
+    width:170px;
+
+    height:170px;
+
+    margin:60px auto;
+
+    background:#0ea5e9;
+
+    border-radius:15px;
+
+    position:relative;
+
+    cursor:pointer;
+
+    transition:.5s;
+
+    box-shadow:0 0 30px rgba(14,165,233,.5);
+
+}
+
+.gift-box:hover{
+
+    transform:scale(1.08);
+
+}
+
+.gift-lid{
+
+    width:170px;
+
+    height:35px;
+
+    background:#38bdf8;
+
+    position:absolute;
+
+    top:-18px;
+
+    left:0;
+
+    border-radius:12px;
+
+    transition:.5s;
+
+}
+
+.gift-open .gift-lid{
+
+    transform:rotate(-18deg) translateY(-25px);
+
+}
+
+.firework{
+
+    position:fixed;
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#38bdf8;
+
+    animation:explode 1s ease-out 
+forwards;
+    pointer-events: none;
+}
+@keyframes explode{
+
+    from{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to{
+        transform: scale(18);
+        opacity: 0;
+    }
+
+}
+    /* ==========================
+   PART 14 - GIFT TEXT
+========================== */
+
+.gift-text{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:170px;
+
+    font-size:70px;
+
+}
+
+.gift-open{
+
+    animation:giftPop .8s ease;
+
+}
+
+@keyframes giftPop{
+
+    0%{
+
+        transform:scale(.8);
+
+    }
+
+    50%{
+
+        transform:scale(1.15);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+/* ==========================
+   PART 15 - IMAGE LIGHTBOX
+========================== */
+
+.lightbox{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.4s;
+
+    z-index:9999;
+
+}
+
+.lightbox.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.lightbox img{
+
+    max-width:90%;
+
+    max-height:90%;
+
+    border-radius:20px;
+
+    box-shadow:0 0 35px rgba(56,189,248,.5);
+
+    animation:zoomIn .4s ease;
+
+}
+
+@keyframes zoomIn{
+
+    from{
+
+        transform:scale(.7);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+/* ==========================
+   PART 16 - CONFETTI
+========================== */
+
+.confetti{
+
+    position:fixed;
+
+    width:10px;
+
+    height:10px;
+
+    top:-20px;
+
+    border-radius:2px;
+
+    z-index:9999;
+
+    animation:confettiFall linear forwards;
+
+}
+
+@keyframes confettiFall{
+
+    0%{
+
+        transform:translateY(0) rotate(0deg);
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateY(110vh) rotate(720deg);
+
+        opacity:0;
+
+    }
+
+}
+/* ==========================
+   PART 17 - COUNTDOWN
+========================== */
+
+#countdown{
+
+    margin-top:100px;
+
+    text-align:center;
+
+}
+
+.countdown-box{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:30px;
+
+}
+
+.time{
+
+    width:120px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(56,189,248,.3);
+
+    box-shadow:0 0 20px rgba(56,189,248,.2);
+
+}
+
+.time h1{
+
+    font-size:42px;
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+.time span{
+
+    color:#ffffff;
+
+}
+/* ==========================
+   PART 18 - BIRTHDAY CAKE
+========================== */
+
+#cake{
+
+    margin-top:100px;
+
+    text-align:center;
+
+}
+
+.cake{
+
+    position:relative;
+
+    width:220px;
+
+    height:200px;
+
+    margin:40px auto;
+
+}
+
+.cake-bottom{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:220px;
+
+    height:90px;
+
+    background:#38bdf8;
+
+    border-radius:15px;
+
+}
+
+.cake-top{
+
+    position:absolute;
+
+    bottom:90px;
+
+    left:20px;
+
+    width:180px;
+
+    height:45px;
+
+    background:#7dd3fc;
+
+    border-radius:15px;
+
+}
+
+.candle{
+
+    position:absolute;
+
+    left:100px;
+
+    bottom:135px;
+
+    width:16px;
+
+    height:55px;
+
+    background:#ffffff;
+
+}
+
+.flame{
+
+    position:absolute;
+
+    top:-18px;
+
+    left:-4px;
+
+    width:24px;
+
+    height:24px;
+
+    background:gold;
+
+    border-radius:50%;
+
+    animation:flicker .3s infinite alternate;
+
+    box-shadow:0 0 20px gold;
+
+}
+
+@keyframes flicker{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.15);
+
+    }
+
+}
+/* ==========================
+   PART 19 - AURORA BACKGROUND
+========================== */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    radial-gradient(circle at 20% 20%,rgba(56,189,248,.18),transparent 35%),
+    radial-gradient(circle at 80% 30%,rgba(14,165,233,.16),transparent 40%),
+    radial-gradient(circle at 50% 80%,rgba(125,211,252,.15),transparent 35%);
+
+    animation:auroraMove 18s ease-in-out infinite;
+
+    pointer-events:none;
+
+    z-index:-2;
+
+}
+
+@keyframes auroraMove{
+
+    0%{
+        transform:translate(0,0) scale(1);
+    }
+
+    50%{
+        transform:translate(-20px,20px) scale(1.08);
+    }
+
+    100%{
+        transform:translate(0,0) scale(1);
+    }
+
+}
+
+/* Glow Effect */
+
+.section-title{
+
+    text-shadow:
+    0 0 8px rgba(56,189,248,.6),
+    0 0 20px rgba(56,189,248,.4);
+
+}
+
+.hero{
+
+    animation:fadeUp 1.5s ease;
+
+}
+/* ==========================
+   PART 20 - FINAL POLISH
+========================== */
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#020617;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+    transition:1s;
+
+}
+
+#loader h1{
+
+    color:#38bdf8;
+
+    font-size:32px;
+
+    text-align:center;
+
+    animation:pulse 1.5s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+        transform:scale(1);
+        opacity:1;
+    }
+
+    50%{
+        transform:scale(1.08);
+        opacity:.8;
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
+
+/* Final Button Animation */
+
+button:active{
+
+    transform:scale(.96);
+
+}
